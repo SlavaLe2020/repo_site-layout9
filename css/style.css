@@ -465,6 +465,21 @@ body {
     .form__bike {
         top: 45px;
     }
+
+    .menu__link:hover {
+        background-color: #fff;
+        color:#131313;
+    }
+
+    .menu__link,
+    .bike__link {
+        transition: all 0s;
+    }
+
+    .bike__link:hover {
+        background-color: #131313;
+        color:#fff;
+    }
 }
 
 
@@ -666,6 +681,23 @@ body {
 
     .form__bike-price::after {
         display: none;
+    }
+
+    .footer__inner {
+        display: block;
+        height: auto;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .footer__social {
+        padding: 15px 0;
+    }
+
+    .footer__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
